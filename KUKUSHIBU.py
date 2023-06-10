@@ -64,7 +64,7 @@ cokbrut=[]
 ses=requests.Session()
 princp=[]
 try: 
-	prox= requests.get('https://github.com/K1NG-SOJIB-69/K1NG-SOJIB-69/blob/main/Approval.txt).text
+	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
 	open('.prox.txt','w').write(prox) 
 except Exception as e:
 	print(' Success...')
