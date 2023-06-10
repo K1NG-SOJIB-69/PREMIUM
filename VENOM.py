@@ -213,7 +213,7 @@ def rcrack(uid,pwx,tl):
         pass
 
 fuck()
-    a='NokiaX'
+    a='Nokia'
     b=random.randrange(1,9)
     c='-0'
     d=random.randrange(1,9)
